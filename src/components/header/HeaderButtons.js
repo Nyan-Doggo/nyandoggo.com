@@ -4,15 +4,15 @@ function HeaderButtons() {
 
     const links = [
         {
-            "name": "Twitter",
+            "name": "Twitter 🐦",
             "url": "https://www.twitter.com"
         },
         {
-            "name": "YouTube",
+            "name": "YouTube 📽️",
             "url": "https://www.twitter.com"
         },
         {
-            "name": "Instagram",
+            "name": "Instagram 📸",
             "url": "https://www.twitter.com"
         },
     ]
