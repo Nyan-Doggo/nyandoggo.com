@@ -1,4 +1,4 @@
-import {Stack, Nav, Button} from 'react-bootstrap';
+import { Stack, Nav, Row, Col, Button } from 'react-bootstrap';
 
 function HeaderButtons() {
 
@@ -22,7 +22,7 @@ function HeaderButtons() {
             <Stack direction="horizontal" className="sm-auto">
                 {links.map(link => {
                     return (
-                        <Button size="lg" href={link.url} target="_blank">{link.name}</Button>
+                        <Button key={link.name} size="lg" href={link.url} target="_blank">{link.name}</Button>
                     );
                 })}
             </Stack>
