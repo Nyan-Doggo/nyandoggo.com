@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-import Header from "../components/Header";
+import Header from "../components/header/Header";
 
 export default function FrontPage(){
     return(
