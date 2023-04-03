@@ -6,7 +6,8 @@ export default function Header() {
     
 
     return (
-        <Navbar sticky="top">
+        <Navbar>
+            { /* navbar could be sticky="top" but thats fucky */ }
             <Row className="w-100">
                 <Col>
                     <HeaderBrand />

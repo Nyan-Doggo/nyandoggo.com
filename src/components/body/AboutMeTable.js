@@ -4,47 +4,52 @@ function AboutMeTable() {
     const aboutMe = [
         {
             "item": "Name:",
-            "value": "Nyan"
+            "value": "Nyan 😻"
         },
         {
             "item": "Pronouns:",
-            "value": "He/Him"
+            "value": "He/Him 💙"
         },
         {
             "item": "Age:",
-            "value": "24"
+            "value": "24 🍰"
         },
         {
             "item": "Occupation:",
-            "value": "Systems Developer"
+            "value": "Systems Developer 💻"
         },
         {
             "item": "Location:",
-            "value": "Norway"
+            "value": "Norway 🇳🇴"
         },
         {
             "item": "Discord:",
-            "value": "Nyan#0069"
+            "value": "Nyan#0069 🎧"
         },
         {
             "item": "Email:",
-            "value": "uwu@nyandoggo.com"
+            "value": "uwu@nyandoggo.com 📬"
         }
     ]
 
     return (
-        <Container>
+        <>
+            <h3>
+                Some quick fax 📠
+            </h3>
             <Table size='sm'>
                 <tbody>
-                    {aboutMe.map(i => {return(
-                    <tr key="i.item">
-                        <th>{i.item}</th>
-                        <td>{i.value}</td>
-                    </tr>
-                    );})}
+                    {aboutMe.map(i => {
+                        return (
+                            <tr key={i.item}>
+                                <th>{i.item}</th>
+                                <td>{i.value}</td>
+                            </tr>
+                        );
+                    })}
                 </tbody>
             </Table>
-        </Container>
+        </>
     );
 }
 
