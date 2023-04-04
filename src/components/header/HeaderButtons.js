@@ -5,15 +5,15 @@ function HeaderButtons() {
     const links = [
         {
             "name": "Twitter 🐦",
-            "url": "https://www.twitter.com"
+            "url": "https://twitter.com/Nyan_UwU_RawrXD"
         },
         {
             "name": "YouTube 📽️",
-            "url": "https://www.twitter.com"
+            "url": "https://www.youtube.com/channel/UCJSZmbLX7AfLtouvXCySDow"
         },
         {
             "name": "Instagram 📸",
-            "url": "https://www.twitter.com"
+            "url": "https://www.instagram.com/nyan_reee/"
         },
     ]
 
