@@ -11,18 +11,19 @@
   --c70: #b3188f;
   --c80: #921674;
   --c90: #50103f;
+  --cg: #202020;
 }
 
 body {
-  background-color: var(--c10);
-  color: var(--c90);
+  background-color: var(--cg);
+  color: var(--c5);
   padding: 1rem;
   font-family: 'Poppins', sans-serif;
   font-size: 1.2rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: var(--c70);
+  color: var(--c30);
   font-family: 'Arial', 'sans-serif';
   font-weight: 900;
 }
@@ -31,27 +32,35 @@ h1{
   font-size: 3rem;
 }
 
+a{
+  color: var(--c40);
+}
+
+a:hover{
+  color: var(--c20);
+}
+
 hr{
-  border: 2px solid var(--c30);
+  border: 2px solid var(--c90);
   margin: 2rem 0rem;
 }
 
 th, td{
-  color: var(--c90);
-  border-color: var(--c20);
+  color: var(--c5);
+  border-color: var(--c90);
 }
 
 .btn{
-  background-color: var(--c90);
-  color: var(--c5);
+  background-color: var(--c40);
+  color: var(--c90);
   border: none;
   transition: 0.2s;
   margin: 0px 5px;
 }
 
 .btn:hover{
-  background-color: var(--c20);
-  color: var(--c80);
+  background-color: var(--c10);
+  color: var(--c90);
 }
 
 .container{
