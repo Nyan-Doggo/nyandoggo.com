@@ -31,9 +31,14 @@ h1{
   font-size: 3rem;
 }
 
+hr{
+  border: 2px solid var(--c30);
+  margin: 2rem 0rem;
+}
+
 th, td{
   color: var(--c90);
-  border-color: var(--c50);
+  border-color: var(--c20);
 }
 
 .btn{
