@@ -3,15 +3,18 @@ import Header from "../components/header/Header";
 import AboutMeTable from "../components/body/AboutMeTable";
 import AboutMeBio from "../components/body/AboutMeBio";
 import CryptoAbout from "../components/body/CryptoAbout";
+import SupportOptions from "../components/body/SupportOptions";
 
 export default function FrontPage() {
     return (
-        <Container>
+        <>
             <Header />
             <hr />
             <Row >
-                <Col>
-                    <AboutMeTable />
+                <Col className="d-flex align-items-center">
+                    <div>
+                        <AboutMeTable />
+                    </div>
                 </Col>
                 <Col className="d-flex align-items-center">
                     <div>
@@ -21,8 +24,10 @@ export default function FrontPage() {
             </Row>
             <hr />
             <Row >
-                <Col>
-                    <AboutMeTable />
+                <Col className="d-flex align-items-center">
+                    <div>
+                        <SupportOptions />
+                    </div>
                 </Col>
                 <Col className="d-flex align-items-center">
                     <div>
@@ -30,7 +35,6 @@ export default function FrontPage() {
                     </div>
                 </Col>
             </Row>
-            <p>This is a test</p>
-        </Container>
+        </>
     );
 }

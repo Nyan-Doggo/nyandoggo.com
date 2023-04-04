@@ -4,7 +4,7 @@ function HeaderBrand() {
     return (
         <Nav>
             <Navbar.Brand><h1>NyanDoggo.com 🌈</h1></Navbar.Brand>
-            <p>- Making the internet worse 😎</p>
+            <p>Making the internet worse 😎</p>
         </Nav>
     );
 }
