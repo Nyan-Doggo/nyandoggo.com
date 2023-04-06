@@ -1,11 +1,11 @@
-import { Stack, Nav, Row, Col, Button } from 'react-bootstrap';
+import { Stack, Nav, Button } from 'react-bootstrap';
 
 function HeaderButtons() {
 
     const links = [
         {
             "name": "Twitter 🐦",
-            "url": "https://twitter.com/Nyan_UwU_RawrXD"
+            "url": "https://twitter.com/nyan_moding"
         },
         {
             "name": "YouTube 📽️",

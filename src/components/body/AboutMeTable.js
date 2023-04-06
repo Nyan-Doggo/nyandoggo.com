@@ -1,4 +1,4 @@
-import { Container, Table } from 'react-bootstrap';
+import { Table } from 'react-bootstrap';
 
 function AboutMeTable() {
     const aboutMe = [
@@ -20,7 +20,7 @@ function AboutMeTable() {
         },
         {
             "item": "Location:",
-            "value": "Norway 🇳🇴"
+            "value": "Norway ⛄"
         },
         {
             "item": "Discord:",

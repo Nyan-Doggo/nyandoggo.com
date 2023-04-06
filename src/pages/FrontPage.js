@@ -1,4 +1,4 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import Header from "../components/header/Header";
 import AboutMeTable from "../components/body/AboutMeTable";
 import AboutMeBio from "../components/body/AboutMeBio";
