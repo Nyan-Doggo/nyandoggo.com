@@ -6,14 +6,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        dark1: '#2a2b2a',
-        light1: '#e8ddb5',
-        accent1: '#52b2cf',
-        accent2: '#7ee081',
-        accent3: '#d7263d',
+        cdark: '#2a2b2a',
+        clight: '#FBFBF2',
+        cblue: '#52B2CF',
+        cred: '#ff5964',
+        cyellow: '#fdca40',
       },
     },
   },
-  plugins: [],
+plugins: [],
 }
 
