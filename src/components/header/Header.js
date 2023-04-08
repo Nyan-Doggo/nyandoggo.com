@@ -1,21 +1,14 @@
-import { Col, Navbar, Row } from "react-bootstrap";
-import HeaderButtons from "./HeaderButtons";
-import HeaderBrand from "./HeaderBrand";
-
-export default function Header() {
-    
-
+function Header() {
     return (
-        <Navbar>
-            { /* navbar could be sticky="top" but thats fucky */ }
-            <Row className="w-100">
-                <Col>
-                    <HeaderBrand />
-                </Col>
-                <Col >
-                    <HeaderButtons />
-                </Col>
-            </Row>
-        </Navbar>
+    <div className="text-center items-center">
+        <h1 className="text-3xl font-bold text-cred">
+            Nyandoggo.com
+        </h1>
+        <p>
+            - Making the internet worse 😎
+        </p>
+    </div>
     );
 }
+
+export default Header;

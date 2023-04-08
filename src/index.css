@@ -11,10 +11,8 @@
   --cyellow: #fdca40;
 }
 
-* {
-  font-family: 'Poppins', sans-serif;
-}
-
 body{
   background-color: var(--cdark);
+  font-family: 'Poppins', sans-serif;
+  color: var(--clight);
 }
