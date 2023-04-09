@@ -5,29 +5,29 @@ function MainMenu() {
 
     const menuOptions = [
         {
-            description: "About me",
+            description: "About me 👉👈",
             color: "cblue",
             items: [
                 {
-                    description: "Quick facts",
+                    description: "Quick fax 📠",
                     endpoint: "/facts",
                 },
                 {
-                    description: "About me",
+                    description: "About me 📚",
                     endpoint: "/bio",
                 },
             ]
         },
         {
-            description: "Links and stuff",
+            description: "Links and stuff 🔗",
             color: "cyellow",
             items: [
                 {
-                    description: "Where to find me",
+                    description: "Where to find me 🕵️‍♂️",
                     endpoint: "/some",
                 },
                 {
-                    description: "Support me",
+                    description: "Support me 💸",
                     endpoint: "/support",
                 },
             ]
