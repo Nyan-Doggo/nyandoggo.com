@@ -37,6 +37,10 @@ function MainMenu() {
     return (
         <div className="w-fit">
             {/* bg-cyellow border-cyellow bg-cblue border-cblue */}
+            {/* 
+                JIT is a bitch and needs to read the full classname to preload stuff for tailwind
+                so i mention the colors in this comment ^~^
+            */}
             {menuOptions.map(mo => {
                 return (
                     <div className={classNames("border-" + mo.color,

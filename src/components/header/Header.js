@@ -7,7 +7,7 @@ function Header() {
             <NavLink to="/">
                 <h1 className="text-3xl font-bold text-cred">
                     Nyandoggo.com!
-                    <img className="inline h-10 ml-2" src={logo512}>
+                    <img className="inline h-9 ml-2" src={logo512}>
                     </img>
                 </h1>
             </NavLink>
