@@ -36,6 +36,7 @@ function MainMenu() {
 
     return (
         <div className="w-fit">
+            {/* bg-cyellow border-cyellow bg-cblue border-cblue */}
             {menuOptions.map(mo => {
                 return (
                     <div className={classNames("border-" + mo.color,
