@@ -8,16 +8,16 @@ function Some() {
         },
         {
             name: "Youtube 🎬",
-            endpoint: "https://twitter.com/nyan_moding",
+            endpoint: "https://www.youtube.com/channel/UCJSZmbLX7AfLtouvXCySDow",
         },
         {
             name: "Instagram 📸",
-            endpoint: "https://twitter.com/nyan_moding",
+            endpoint: "https://www.instagram.com/nyan_reee/",
         },
         {
             name: "Github 💻",
             endpoint: "https://github.com/Nyan-Doggo",
-        }
+        },
     ]
 
     return (
