@@ -14,6 +14,7 @@ export default function App() {
     <div className="App h-screen">
       <BrowserRouter>
         <Header />
+        {/*test*/}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/facts" element={<Facts />} />
