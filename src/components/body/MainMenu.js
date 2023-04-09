@@ -1,29 +1,67 @@
+import classNames from "classnames";
+import { NavLink } from "react-router-dom";
+
 function MainMenu() {
+
+    const menuOptions = [
+        {
+            description: "About me",
+            color: "cblue",
+            items: [
+                {
+                    description: "Quick facts",
+                    endpoint: "/facts",
+                },
+                {
+                    description: "About me",
+                    endpoint: "/bio",
+                },
+            ]
+        },
+        {
+            description: "Links and stuff",
+            color: "cyellow",
+            items: [
+                {
+                    description: "Where to find me",
+                    endpoint: "/some",
+                },
+                {
+                    description: "Support me",
+                    endpoint: "/support",
+                },
+            ]
+        },
+    ]
+
     return (
         <div className="w-fit">
+            {menuOptions.map(mo => {
+                return (
+                    <div className={classNames("border-" + mo.color,
+                        "flex border-t-2 mb-2 border-dotted w-fit ml-auto")}>
+                        <div className="p-2">
+                            <p>{mo.description}</p>
+                        </div>
 
-            <div className="flex border-t-2 my-2 border-cblue border-dotted w-fit ml-auto">
-                <div className="p-2">
-                    <p>About me 👉👈</p>
-                </div>
-                <div>
-                    <p className="p-2 bg-cblue text-cdark shadow-lg hover:bg-clight duration-200">Quick Fax 📠</p>
-                    <p className="p-2 bg-cblue text-cdark shadow-lg">Bio 📚</p>
-                </div>
-            </div>
+                        <div>
 
+                            {mo.items.map(link => {
+                                return (
+                                    <NavLink to={link.endpoint}>
+                                        <p className={classNames("bg-" + mo.color,
+                                            "p-2 text-cdark shadow-lg hover:bg-clight duration-200 ")}>
+                                            {link.description}
+                                        </p>
+                                    </NavLink>
+                                );
+                            })}
 
-            <div className="flex border-t-2 my-2 border-cyellow border-dotted w-fit">
-                <div className="p-2">
-                    <p>Links and stuff 🔗</p>
-                </div>
-                <div>
-                    <p className="p-2 bg-cyellow text-cdark shadow-lg hover:bg-clight duration-200">Where to find me 🌐</p>
-                    <p className="p-2 bg-cyellow text-cdark shadow-lg">Support me 💸</p>
-                </div>
-            </div>
+                        </div>
 
-
+                    </div>
+                );
+            })}
         </div>
     );
 }
