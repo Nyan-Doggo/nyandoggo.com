@@ -3,7 +3,7 @@ import logo512 from "../../images/logo512.png";
 
 function MobileHeader() {
     return (
-        <div className="text-center pt-2">
+        <div className="p-2">
             <NavLink to="/">
                 <h1 className="text-xl font-bold text-cred">
                     Nyandoggo.com!

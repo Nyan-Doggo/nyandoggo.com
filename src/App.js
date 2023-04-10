@@ -3,18 +3,25 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import "./index.css";
 import Header from "./components/header/Header";
 import MobileHeader from "./components/header/MobileHeader";
+// page imports
 import Facts from "./pages/Facts";
 import Bio from "./pages/Bio";
 import Some from "./pages/Some";
 import Support from "./pages/Support";
 import Home from "./pages/Home";
+// mobile page imports
+import MobileHome from "./pages/MobileHome";
+import MobileFacts from "./pages/MobileFacts"
+import MobileBio from "./pages/MobileBio";
+
+
 import smol from "./images/smol.png"
 
 export default function App() {
   const IsSmall = () => {
     // Declare a new state variable with the "useState" Hook
     const [width, setWidth] = React.useState(window.innerWidth);
-    const breakpoint = 1000;
+    const breakpoint = 800;
     React.useEffect(() => {
       /* Inside of a "useEffect" hook add an event listener that updates
          the "width" state variable when the window size changes */
@@ -34,9 +41,9 @@ export default function App() {
         <BrowserRouter>
           <MobileHeader />
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/facts" element={<Facts />} />
-            <Route path="/bio" element={<Bio />} />
+            <Route path="/" element={<MobileHome />} />
+            <Route path="/facts" element={<MobileFacts />} />
+            <Route path="/bio" element={<MobileBio />} />
             <Route path="/some" element={<Some />} />
             <Route path="/support" element={<Support />} />
             <Route path="*" element={<Navigate to="/" />} />
