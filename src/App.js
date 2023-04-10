@@ -33,8 +33,6 @@ export default function App() {
     return width < breakpoint ? true : false
   }
 
-
-
   return (
     <div className="App h-screen">
       {IsSmall() ?
@@ -65,11 +63,12 @@ export default function App() {
         </BrowserRouter>
       }
 
-      {/* 
-      <div className="fixed right-0 bottom-0 max-w-[20vw] max-h-[20vh]">
-        <img src={smol}>
-        </img>
-      </div> */}
+      {!IsSmall() &&
+        <div className="fixed right-0 bottom-0 w-[20vh]">
+          <img src={smol}>
+          </img>
+        </div>}
+
 
 
     </div>
