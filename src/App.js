@@ -13,6 +13,8 @@ import Home from "./pages/Home";
 import MobileHome from "./pages/MobileHome";
 import MobileFacts from "./pages/MobileFacts"
 import MobileBio from "./pages/MobileBio";
+import MobileSupport from "./pages/MobileSupport";
+import MobileSome from "./pages/MobileSome";
 
 
 import smol from "./images/smol.png"
@@ -42,8 +44,8 @@ export default function App() {
             <Route path="/" element={<MobileHome />} />
             <Route path="/facts" element={<MobileFacts />} />
             <Route path="/bio" element={<MobileBio />} />
-            <Route path="/some" element={<Some />} />
-            <Route path="/support" element={<Support />} />
+            <Route path="/some" element={<MobileSome />} />
+            <Route path="/support" element={<MobileSupport />} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </BrowserRouter>

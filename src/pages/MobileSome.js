@@ -1,6 +1,6 @@
-import Body from "../components/body/Body";
+import MobileBody from "../components/body/MobileBody";
 
-function Some() {
+function MobileSome() {
     const media = [
         {
             name: "Twitter 🐦",
@@ -17,16 +17,16 @@ function Some() {
     ]
 
     return (
-        <Body mainMenu>
+        <MobileBody mainMenu>
             <div>
                 <h1 className="text-xl font-bold">
                     Im online! 🌐
                 </h1>
-                <div className="flex">
+                <div className="grid grid-cols-1">
                     {media.map(s => {
                         return (
                             <a href={s.endpoint} target="_blank" >
-                                <div className="p-4 bg-cyellow m-2 text-cdark hover:bg-clight duration-200">
+                                <div className="p-2 bg-cyellow m-2 text-cdark hover:bg-clight duration-200">
                                     {s.name}
                                 </div>
                             </a>
@@ -40,8 +40,8 @@ function Some() {
                     and im on discord; Nyan#0069
                 </p>
             </div>
-        </Body>
+        </MobileBody>
     );
 }
 
-export default Some;
+export default MobileSome;

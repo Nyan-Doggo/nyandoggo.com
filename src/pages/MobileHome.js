@@ -11,7 +11,7 @@ function Home(){
             </p>
             <br/>
             <p>
-                im working to make the site more mobile friendly but i may have the stoopid so idk when itll be done
+            page is now more mobile friendly nya &gt;~&lt;
             </p>
         </MobileBody>
     );
