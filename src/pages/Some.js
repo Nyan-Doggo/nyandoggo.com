@@ -22,10 +22,10 @@ function Some() {
                 <h1 className="text-xl font-bold">
                     Im online! 🌐
                 </h1>
-                <div className="flex">
+                <div className="grid lg:grid-cols-3">
                     {media.map(s => {
                         return (
-                            <a href={s.endpoint} target="_blank" >
+                            <a href={s.endpoint} key={s.endpoint} target="_blank" rel="noreferrer" >
                                 <div className="p-4 bg-cyellow m-2 text-cdark hover:bg-clight duration-200">
                                     {s.name}
                                 </div>

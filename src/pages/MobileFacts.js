@@ -38,7 +38,7 @@ function MobileFacts() {
                 <tbody>
                     {facts.map(f => {
                         return (
-                            <tr className="border-b-2 h-12 text-sm align-bottom border-cyellow">
+                            <tr key={f.f} className="border-b-2 h-12 text-sm align-bottom border-cyellow">
                                 <td className="text-sm">
                                     {f.f} :
                                 </td>

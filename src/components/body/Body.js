@@ -7,7 +7,7 @@ function Body({ mainMenu, children }) {
 
             {mainMenu && <MainMenu /> }
 
-            <div className="ml-10 p-10 w-2/3 border-dotted border-cred border-2 shadow-lg duration-200">
+            <div className="p-2 w-2/3 mx-auto border-dotted border-cred border-2 shadow-lg duration-200">
                 {children}
             </div>
         </div>
