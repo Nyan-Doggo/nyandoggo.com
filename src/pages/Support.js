@@ -16,7 +16,7 @@ function Support() {
                     My BTC wallet address is: <span className="underline text-cdark bg-cyellow">bc1qfs7jn09qseqmg8tgx3usndpf98a3t9t2zymvtg</span>
                 </p
                 ><p>
-                    and my paypal can be found <a href="https://paypal.me/NyanDoggo" target="_blank" className="underline">here!</a>
+                    and my paypal can be found <a href="https://paypal.me/NyanDoggo" target="_blank" rel="noreferrer" className="underline">here!</a>
                 </p>
             </div>
         </Body>

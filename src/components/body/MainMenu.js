@@ -15,8 +15,8 @@ function MainMenu() {
             */}
             {menuOptions.map(mo => {
                 return (
-                    <div className={classNames("border-" + mo.color,
-                        "flex border-t-2 mb-2 border-dotted w-fit ml-auto")}>
+                    <div key={mo.description} className={classNames("border-" + mo.color,
+                        "grid lg:grid-cols-2 border-t-2 mb-2 border-dotted w-full ml-auto")}>
                         <div className="p-2">
                             <p>{mo.description}</p>
                         </div>
@@ -25,7 +25,7 @@ function MainMenu() {
 
                             {mo.items.map(link => {
                                 return (
-                                    <NavLink to={link.endpoint}>
+                                    <NavLink to={link.endpoint} key={link.endpoint}>
                                         <p className={classNames("bg-" + mo.color,
                                             "p-2 text-cdark shadow-lg hover:bg-clight duration-200 ")}>
                                             {link.description}

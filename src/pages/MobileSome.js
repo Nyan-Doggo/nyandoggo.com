@@ -25,7 +25,7 @@ function MobileSome() {
                 <div className="grid grid-cols-1">
                     {media.map(s => {
                         return (
-                            <a href={s.endpoint} target="_blank" >
+                            <a key={s.endpoint} href={s.endpoint} target="_blank" rel="noreferrer">
                                 <div className="p-2 bg-cyellow m-2 text-cdark hover:bg-clight duration-200">
                                     {s.name}
                                 </div>

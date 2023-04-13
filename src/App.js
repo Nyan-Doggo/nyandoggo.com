@@ -23,7 +23,7 @@ export default function App() {
   const IsSmall = () => {
     // Declare a new state variable with the "useState" Hook
     const [width, setWidth] = React.useState(window.innerWidth);
-    const breakpoint = 800;
+    const breakpoint = 768;
     React.useEffect(() => {
       /* Inside of a "useEffect" hook add an event listener that updates
          the "width" state variable when the window size changes */
@@ -67,7 +67,7 @@ export default function App() {
 
       {!IsSmall() &&
         <div className="fixed right-0 bottom-0 w-[20vh]">
-          <img src={smol}>
+          <img src={smol} alt="anime girl goes brrrr">
           </img>
         </div>}
 

@@ -34,11 +34,11 @@ function Facts() {
                 &gt;CharacterSheet.pdf 🎲
             </h1>
             <br />
-            <table className="table-fixed w-2/3">
+            <table className="table-fixed lg:w-2/3">
                 <tbody>
                     {facts.map(f => {
                         return (
-                            <tr className="border-b-2 h-9 align-bottom border-cyellow">
+                            <tr key={f.f} className="border-b-2 h-9 align-bottom border-cyellow">
                                 <td className="text-lg">
                                     {f.f} :
                                 </td>
