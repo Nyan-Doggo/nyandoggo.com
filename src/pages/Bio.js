@@ -10,7 +10,7 @@ function Bio() {
             <p>
                 Idk, thats a good question; I've been booping computers professionally for like 3 years or sum 🤓.
                 I've got an education in industrial automation, although that never really went anywhere cuz im fembrained 
-                and dislike manual labor 👀.
+                and dislike manual labour 👀.
             </p>
             <br />
             <p>
