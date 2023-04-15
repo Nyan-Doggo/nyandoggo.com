@@ -4,7 +4,7 @@ function Home(){
     return(
         <MobileBody mainMenu>
             <h1 className="text-xl font-bold">
-            Mobile Welcome
+            Welcome
             </h1>
             <p>
                 - im just a lil guy bleh 🐱
