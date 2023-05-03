@@ -14,6 +14,10 @@ function MobileSome() {
             name: "Instagram 📸",
             endpoint: "https://www.instagram.com/nyan_reee/",
         },
+        {
+            name: "Furkin.chat 🐺",
+            endpoint: "https://www.furkin.chat",
+        },
     ]
 
     return (
