@@ -5,6 +5,10 @@ function MobileSome() {
         {
             name: "Twitter 🐦",
             endpoint: "https://twitter.com/nyan_moding",
+        },        
+        {
+            name: "Twitch 🎮",
+            endpoint: "https://www.twitch.tv/nyan___nyan",
         },
         {
             name: "Youtube 🎬",

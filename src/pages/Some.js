@@ -7,6 +7,10 @@ function Some() {
             endpoint: "https://twitter.com/nyan_moding",
         },
         {
+            name: "Twitch 🎮",
+            endpoint: "https://www.twitch.tv/nyan___nyan",
+        },
+        {
             name: "Youtube 🎬",
             endpoint: "https://www.youtube.com/channel/UCJSZmbLX7AfLtouvXCySDow",
         },
