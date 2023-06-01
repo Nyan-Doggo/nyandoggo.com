@@ -1,0 +1,14 @@
+about me section 
+    -> github for showcasing projects
+    -> quick facts
+    -> short bio
+
+links and social media
+    -> twitter
+    -> youtube
+    -> twitch
+    -> ig
+    -> github
+    -> furkin.chat
+
+blog

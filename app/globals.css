@@ -2,26 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;700;900&display=swap');
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-hex: #f7f7f7;
+  --background-hex: #1a1a1a;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+* {
+  font-family: 'Prompt', sans-serif;
 }
+
+
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: 'Prompt', sans-serif;
+  color: var(--foreground-hex);
+  background-color: var(--background-hex);
+}
+
+p{
+  margin-bottom: 12px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: #a2de78;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.text-shadow-white {
+  text-shadow: 1px 1px 40px #f7f7f755;
 }
