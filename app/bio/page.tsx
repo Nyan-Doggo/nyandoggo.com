@@ -10,7 +10,7 @@ export default function Bio() {
                     freedom and spreading cringe kawai trash on the internet 🥰!
                 </p>
                 <p className="text-center w-full">
-                    most my work experience is with Python 🐍, tho i've started dabbling into some JS/TS webdev with React/NextJS,
+                    most my work experience is with Python 🐍, tho i`ve started dabbling into some JS/TS webdev with React/NextJS,
                     and im trying my best to <a href="https://github.com/Nyan-Doggo/LearningRust" className="underline decoration-forest-green-500 bg-forest-green-200 text-mine-shaft-900 p-1">learn 🦀</a>
                 </p>
                 <p className="text-center w-full">
