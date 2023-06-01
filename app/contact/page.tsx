@@ -28,7 +28,7 @@ export default function Contact() {
         <div className="flex w-full">
             <div className="m-auto w-3/4 md:w-1/3 flex-col">
                 <h3 className="text-mine-shaft-50 text-center mt-24 mb-12 w-full md:mt-48">
-                    I'm online! 🥳
+                    I`m online! 🥳
                 </h3>
 
                 {socialMediaLinks.map((sml: {name: string, url: string,}) => {return(
