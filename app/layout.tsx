@@ -11,15 +11,19 @@ export const metadata = {
 export default function RootLayout({ children, }: { children: React.ReactNode }) {
   const pages = [
     {
-      name: "home",
+      name: "Home",
       url: "/",
+    },
+    {
+      name: "Blog",
+      url: "https://blog.nyandoggo.com",
     },
     {
       name: "About me",
       url: "/about-me",
     },
     {
-      name: "where to find me?",
+      name: "Where to find me?",
       url: "/contact",
     },
   ]

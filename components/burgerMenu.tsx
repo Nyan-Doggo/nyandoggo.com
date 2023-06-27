@@ -11,18 +11,22 @@ export default function BurgerMenu() {
 
     const pages = [
         {
-            name: "home",
-            url: "/",
+          name: "Home",
+          url: "/",
         },
         {
-            name: "About me",
-            url: "/about-me",
+          name: "Blog",
+          url: "https://blog.nyandoggo.com",
         },
         {
-            name: "where to find me?",
-            url: "/contact",
+          name: "About me",
+          url: "/about-me",
         },
-    ]
+        {
+          name: "Where to find me?",
+          url: "/contact",
+        },
+      ]
 
 
     return (
