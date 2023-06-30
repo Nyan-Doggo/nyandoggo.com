@@ -7,7 +7,7 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'forest-green': {
+      'green': {
         '50': '#f2fbea',
         '100': '#e2f5d2',
         '200': '#c6ecaa',
@@ -20,7 +20,7 @@ module.exports = {
         '900': '#2b4a1d',
         '950': '#14280b',
       },
-      'mine-shaft': {
+      'gray': {
         '50': '#f7f7f7',
         '100': '#e3e3e3',
         '200': '#c8c8c8',

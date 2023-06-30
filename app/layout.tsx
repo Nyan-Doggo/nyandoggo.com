@@ -1,7 +1,5 @@
-import BurgerMenu from '@/components/burgerMenu'
 import './globals.css'
 import Link from 'next/link'
-
 
 export const metadata = {
   title: 'NyanDoggo.com',
@@ -9,37 +7,23 @@ export const metadata = {
 }
 
 export default function RootLayout({ children, }: { children: React.ReactNode }) {
-  const pages = [
-    {
-      name: "Home",
-      url: "/",
-    },
-    {
-      name: "Blog",
-      url: "https://blog.nyandoggo.com",
-    },
-    {
-      name: "About me",
-      url: "/about-me",
-    },
-    {
-      name: "Where to find me?",
-      url: "/contact",
-    },
-  ]
+
 
   return (
     <html lang="en">
-      <body>
-        <div className="flex flex-col h-screen justify-between p-4 md:p-12">
-          <header className="w-full flex">
-
-            <h1 className="text-center w-full text-shadow-white">
-              Nyandoggo.com
-            </h1>
-            
-            <BurgerMenu />
-
+      <body >
+        <div className="flex flex-col min-h-screen">
+          <header className="w-full flex mt-4 px-2">
+            <Link href="/">
+              <div className='border-b-2 border-green-200 border-opacity-0 hover:border-opacity-100 rounded-xltransition duration-700 px-4'>
+                <h1 className="text-xl font-bold text-gray-600">
+                  &gt;Nyandoggo.com
+                </h1>
+                <p className='text-gray-700'>
+                  Todo list: ... yeah
+                </p>
+              </div>
+            </Link>
           </header>
 
 
@@ -48,19 +32,11 @@ export default function RootLayout({ children, }: { children: React.ReactNode })
           </main>
 
 
-          <footer className="flex">
-            <img src="/agbg.png" className="object-contain absolute bottom-0 max-w-[50vw] max-h-[40vh] filter blur-sm opacity-25 -z-10" />
-
-            <div className="w-full">
-              <p className="text-mine-shaft-600 text-right">
-                <a href="mailto:uwu@nyandoggo.com">uwu@nyandoggo.com</a>
-              </p>
-            </div>
+          <footer className="flex px-2 mb-4">
+            <a className='text-right w-full opacity-50'
+              href="mailto:uwu@nyandoggo.com">contact: uwu@nyandoggo.com</a>
           </footer>
-
         </div>
-
-
       </body>
     </html>
   )
