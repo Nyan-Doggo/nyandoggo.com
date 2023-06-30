@@ -17,7 +17,7 @@ export default function Home() {
               Idk, i got some cool stuff here i guess :/ feel free to look at around.
             </p>
             <p className="mt-4">
-              oh, and if you don{"\'"}t like abstract stuff then just [click me] for the "professional" version instead.
+              oh, and if you don{"\'"}t like abstract stuff then just [click me] for the {"\""}professional{"\""} version instead.
             </p>
           </Link>
         </div>
