@@ -2,7 +2,7 @@ export default function Boomer() {
     return (
         <div className="m-auto max-w-[800px]">
             <p className="mt-12">
-                omg you're so boring... ugh,
+                omg you{"\'"}re so boring... ugh,
                 fine... 🙄
             </p>
             <p className="mt-2">
@@ -13,9 +13,9 @@ export default function Boomer() {
                 <span className="text-gray-200 italic">*ahem, cough cough*</span>
                 <br />
                 I am a professional person that do professional things.
-                For instance i've made both front-end and backend applications. in my
+                For instance i{"\'"}ve made both front-end and backend applications. in my
                 current position i develop marketing & productivity tools for Office users. this includes
-                writing both Javascript and VBA applications, in addition i've developed
+                writing both Javascript and VBA applications, in addition i{"\'"}ve developed
                 internal tooling for our back-office and accounting systems, some keywords here includes
                 data-transformation, Python and Linux server implementation and maintenance
             </p>

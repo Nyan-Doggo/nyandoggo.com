@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="w-full max-w-[1200px] mx-auto mt-12">
       <h3 className="text-2xl mb-6">
-        It's usually 2AM
+        It{"\'"}s usually 2AM
       </h3>
 
       <div className="grid grid-cols-3 gap-8 mb-12">
@@ -17,7 +17,7 @@ export default function Home() {
               Idk, i got some cool stuff here i guess :/ feel free to look at around.
             </p>
             <p className="mt-4">
-              oh, and if you don't like abstract stuff then just [click me] for the "professional" version instead.
+              oh, and if you don{"\'"}t like abstract stuff then just [click me] for the "professional" version instead.
             </p>
           </Link>
         </div>
@@ -31,7 +31,7 @@ export default function Home() {
         <img src="/moomin/3.jpg" className="object-cover max-h-[400px] w-full filter grayscale transition hover:grayscale-0 duration-700" />
         <div className="flex hover:bg-gray-600 hover:text-green-100 transition duration-700 px-6">
           <p className="m-auto text-lg">
-            You know that one very basic song about if you just had one chance... i, i don't think i'd take that one chance.
+            You know that one very basic song about if you just had one chance... i, i don{"\'"}t think i{"\'"}d take that one chance.
           </p>
         </div>
 
@@ -46,7 +46,7 @@ export default function Home() {
 
         <div className="flex hover:bg-gray-600 hover:text-green-100 transition duration-700 px-6">
           <p className="m-auto text-lg">
-            The site isn't done yet. maybe it will be, one day.
+            The site isn{"\'"}t done yet. maybe it will be, one day.
           </p>
         </div>
         <img src="/moomin/6.jpg" className="object-cover max-h-[400px] w-full filter grayscale transition hover:grayscale-0 duration-700" />
