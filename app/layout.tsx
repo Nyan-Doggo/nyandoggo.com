@@ -15,7 +15,7 @@ export default function RootLayout({ children, }: { children: React.ReactNode })
         <div className="flex flex-col min-h-screen">
           <header className="w-full flex mt-4 px-2">
             <Link href="/">
-              <div className='border-b-2 border-green-200 border-opacity-0 hover:border-opacity-100 rounded-xltransition duration-700 px-4'>
+              <div className='border-b-2 border-green-200 border-opacity-0 hover:border-opacity-100 transition duration-700 pr-4'>
                 <h1 className="text-xl font-bold text-gray-600">
                   &gt;Nyandoggo.com
                 </h1>
@@ -27,7 +27,7 @@ export default function RootLayout({ children, }: { children: React.ReactNode })
           </header>
 
 
-          <main className="mb-auto w-full flex flex-col">
+          <main className="mb-auto w-full flex flex-col px-2">
             {children}
           </main>
 

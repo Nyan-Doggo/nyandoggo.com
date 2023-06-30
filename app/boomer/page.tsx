@@ -6,7 +6,7 @@ export default function Boomer() {
                 fine... 🙄
             </p>
             <p className="mt-2">
-                BUT: just to be difficult im making this page as boring as possible
+                BUT: just to be difficult im making this page as boring as you are
             </p>
 
             <p className="mt-4">
@@ -21,7 +21,7 @@ export default function Boomer() {
             </p>
 
             <p className="mt-4 mb-12">
-                there, was that good? did that turn you on? 😒
+                there, was that good? 😒
             </p>
 
             <p className="mt-4">&gt; <a target="_blank" href="https://blog.nyandoggo.com" className="underline decoration-green-500">Blog</a></p>

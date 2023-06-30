@@ -9,7 +9,7 @@ export default function Home() {
         It{"\'"}s usually 2AM
       </h3>
 
-      <div className="grid grid-cols-3 gap-8 mb-12">
+      <div className="grid md:grid-cols-3 gap-8 mb-12">
         <img alt="moomin-cup" src="/moomin/1.jpg" className="object-cover max-h-[400px] w-full filter grayscale transition hover:grayscale-0 duration-700" />
         <div className="flex hover:bg-gray-600 hover:text-green-100 transition duration-700 px-6">
           <Link className="m-auto" href="/boomer">
@@ -52,7 +52,7 @@ export default function Home() {
         <img alt="moomin-cup" src="/moomin/6.jpg" className="object-cover max-h-[400px] w-full filter grayscale transition hover:grayscale-0 duration-700" />
         <div className="flex hover:bg-gray-600 hover:text-green-100 transition duration-700 px-6">
           <p className="m-auto text-lg">
-            i wonder if he still thinks of me
+            I wonder if he still thinks of me
           </p>
         </div>
 
