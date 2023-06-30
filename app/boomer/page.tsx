@@ -24,7 +24,7 @@ export default function Boomer() {
                 there, was that good? did that turn you on? 😒
             </p>
 
-            <p className="mt-4">&gt; <a target="_blank" href="https://blog.nyandogg.com" className="underline decoration-green-500">Blog</a></p>
+            <p className="mt-4">&gt; <a target="_blank" href="https://blog.nyandoggo.com" className="underline decoration-green-500">Blog</a></p>
             <p className="mt-4">&gt; <a target="_blank" href="https://github.com/Nyan-Doggo" className="underline decoration-green-500">Github</a></p>
             <p className="mt-4">&gt; <a target="_blank" href="https://www.furkin.chat" className="underline decoration-green-500">Furkin.chat</a></p>
             <p className="mt-4">&gt; <a target="_blank" href="https://twitter.com/nyan_moding" className="underline decoration-green-500">Twitter</a></p>
